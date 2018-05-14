@@ -5,7 +5,7 @@
     <ProjectGuid>d5af0904-fb50-4cbf-baf2-05f781c7b098</ProjectGuid>
     <ProjectHome>
     </ProjectHome>
-    <StartupFile>test.py</StartupFile>
+    <StartupFile>XKCD.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -22,9 +22,15 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="getWebInfo.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="jdbuy.py" />
     <Compile Include="getpwd.py" />
     <Compile Include="test.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="XKCD.py">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
